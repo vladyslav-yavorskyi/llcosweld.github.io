@@ -1,0 +1,71 @@
+@media (max-width: 1200px) { 
+	.five_title::after {
+		display: none;
+	}
+	.fth_title::after {
+		display: none;
+	}
+	.card-body {
+		height: auto;
+	}
+	.section_3{
+		height: 120vh;
+	}
+
+	.main-info {
+		margin-top: 25%;
+	}
+
+}
+
+@media (max-width: 992px) { 
+	.main-title {
+		font-size: 8.9vh;
+	}
+	.main-info {
+		margin-top: 24%;
+	}
+}
+
+@media (max-width: 768px) { 
+	.main-title {
+		font-size: 7.9vh;
+	}
+
+	.section_3{
+		height: 125vh;
+	}
+
+
+
+
+}
+
+
+@media (max-width: 576px) { 
+	/* .third-title2 {
+		padding-top: 2vh;
+	}
+	.third-title {
+		padding-top: 2vh;
+	}
+	.third-text {
+		padding-top: 3vh;
+	} */
+
+	.section_3{
+		height: 115vh;
+	}
+	.main-title {
+		font-size: 6vh;
+	}
+	.main-info {
+		margin-top: 45%;
+	}
+
+}
+
+
+
+
+
