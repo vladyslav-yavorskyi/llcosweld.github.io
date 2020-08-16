@@ -38,6 +38,10 @@ a {
 
 }
 
+.navbar-brand {
+	font-size: 1.55rem !important;
+}
+
 .nav_title:hover {
 	color: #fff;
 }
@@ -149,71 +153,23 @@ a {
 
 /* Second Page */
 
-.second_title {
-	font-weight: 800;
-	color: #000000;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-}
 
-.card {
-	border: none;
-}
-
-.card-body {
-	border: 1px solid #000;
-	background-color: #fff;
-	color: #000;
-	border-radius: 5px;
-	transition: all 0.5s;
-	margin-top: 10px;
-	height: 230px;
-}
-
-.card-body:hover {
-	background: #000;
-	color: #fff;
-	box-shadow: 0px 5px 55px rgba(0, 0, 0, 0.25);
-}
-
-.card-title {
-	font-size: bold;
-}
-
-.card-title::after {
-	content: '';
-	width: 45px;
-	height: 2px;
-	background-color: #000000;
-	display: block;
-	margin-top: 10px;
-	margin-bottom: 30px;
-}
-
-/* Third Page */
-
-.section_3 {
-	height: 100vh;
-	background-color: black; 
-	margin-top: 15vh;
-}
-
-.third-title {
-	padding-top: 8vh;
-	color: #FAFAFA;
+.second-title {
+	margin-top: 8vh;
+	color: black;
 	font-weight: 800;
 }
 
-.third-text {
+.second-text {
 	padding-top: 6vh;
-	color: #FAFAFA;
+	color: black;
 	font-weight: 600;
 	font-size: 2.75vh;
 }  
 
-.third-title2 {
-	padding-top: 8vh;
-	color: #FAFAFA;
+.second-title2 {
+	margin-top: 8vh;
+	color: black;
 	font-weight: 800;
 }
 
@@ -224,16 +180,161 @@ a {
 .img_colab img {
 	height: 15vh;
 	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* Third Page */
+
+.section_3 {
+	background-color: black; 
+	margin-top: 15vh;
+	position: relative;
+}
+
+.third-title {
+	font-weight: 800;
+	color: #fafafa;
+	margin-bottom: 3vh;
+}
+
+.col-xl-6 {
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+}
+
+.card {
+	padding-top: 20px;
+	background-color: #000000 !important;
+}
+
+
+.card-body {
+	border: 1px solid #fafafa;
+	background-color: #000000;
+	color: #fafafa;
+	border-radius: 5px;
+	transition: all 0.5s;
+	margin-top: 10px;
+	height: 230px;
+}
+
+.card-title {
+	font-size: bold;
+}
+
+.card-title::after {
+	content: '';
+	width: 45px;
+	height: 2px;
+	background-color: #fafafa;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.third-title-2 {
+	font-weight: 800;
+	color: #000000;
+	margin-top: 9vh;
+}
+
+.cont {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.cont .cards {
+	position: relative;
+	height: 250px;
+	background: #FAFAFA;
+	display: flex;
+	width: 45%;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+
+.cont .cards .imgBx {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fafafa;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	border-radius: 5px;
+}
+
+.cont .cards:hover .imgBx {
+	width: 150px;
+	height: 150px;
+	left: -75px;
+	top: calc(50% - 75px);
+	transition: 0.5s ease-in-out;
+	background: #fafafa;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.cont .cards .imgBx img {
+	max-width: 150px;
+	transition: 0.5s ease-in-out;
+}
+
+.cont .cards:hover .imgBx img {
+	max-width: 75px;
+
+}
+
+.cont .cards .content {
+	position: absolute;
+	right: 0;
+	width: calc(100% - 75px);
+	height: 100%;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.cont .cards .content h3 {
+	padding-top: 10%;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.cont .cards .content h3::after {
+	content: '';
+	width: 45px;
+	height: 2px;
+	background-color: black;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 /* Fourth Page */
 
 .section_4 {
 	margin-top: 10vh;
+	background-color: black;
+
+}
+
+.cont-4 {
+	padding-top: 2.5%;
 }
 
 .fth_title {
 	font-weight: bold;
+	color: #fafafa;
 }
 
 .fth_title::after {
@@ -249,17 +350,18 @@ a {
 .fth_text {
 	font-weight: 600;
 	font-size: 2.5vh;
+	color: #fafafa;
 }
 
 .first__btn {
-	background: #000000;
+	background: #fafafa;
 	border-radius: 10px;
 	font-weight: bold;
 	letter-spacing: -0.055em;
 	padding: 13px 40px;
 	margin-top: 10px;
-	color: #FAFAFA;
-	border: 1px solid #fafafa;
+	color: black;
+	border: 1px solid black;
 	transition: all 0.5s ;
 }
 
