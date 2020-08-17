@@ -32,7 +32,7 @@ a {
 	background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.nav_title {
+.nav-title {
 	font-weight: bold;
 	color: #fafafa;
 
@@ -42,32 +42,32 @@ a {
 	font-size: 1.55rem !important;
 }
 
-.nav_title:hover {
+.nav-title:hover {
 	color: #fff;
 }
 
-.nav_phone {
+.nav-phone {
 	font-weight: bold;
 	color: #fafafa;
 	transition: all 0.5s ;
 }
 
-.nav_phone:hover {
+.nav-phone:hover {
 	color: purple;
 }
 
-.nav_phone2 {
+.nav-phone-2 {
 	font-weight: bold;
 	color: #fafafa;
 	transition: all 0.5s ;
 }
 
-.nav_phone2:hover {
+.nav-phone-2:hover {
 	color: green;
 }
 
 .main-info {
-	margin-top: 13%;
+	margin-top: 10%;
 }
 
 .main-title {
@@ -173,11 +173,11 @@ a {
 	font-weight: 800;
 }
 
-.img_colab {
+.img-colab {
 	padding-top: 6vh;
 }
 
-.img_colab img {
+.img-colab img {
 	height: 15vh;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -185,7 +185,7 @@ a {
 
 /* Third Page */
 
-.section_3 {
+.section-3 {
 	background-color: black; 
 	margin-top: 15vh;
 	position: relative;
@@ -232,7 +232,9 @@ a {
 	margin-bottom: 30px;
 }
 
-.third-title-2 {
+/* Fourth */
+
+.fourth-title {
 	font-weight: 800;
 	color: #000000;
 	margin-top: 9vh;
@@ -270,6 +272,7 @@ a {
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
 	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .cont .cards:hover .imgBx {
@@ -320,24 +323,24 @@ a {
 	margin-bottom: 20px;
 }
 
-/* Fourth Page */
+/* Fifth Page */
 
-.section_4 {
+.section-5 {
 	margin-top: 10vh;
 	background-color: black;
 
 }
 
-.cont-4 {
+.cont-5 {
 	padding-top: 2.5%;
 }
 
-.fth_title {
+.fifth_title {
 	font-weight: bold;
 	color: #fafafa;
 }
 
-.fth_title::after {
+.fifth_title::after {
 	content: '';
 	width: 65px;
 	height: 2px;
@@ -347,7 +350,7 @@ a {
 	margin-bottom: 15px;
 }
 
-.fth_text {
+.fifth_text {
 	font-weight: 600;
 	font-size: 2.5vh;
 	color: #fafafa;
@@ -370,17 +373,17 @@ a {
 	color: black;
 }
 
-/* Fiveth Page */
+/* Sixth Page */
 
-.section_5 {
+.section-6 {
 	margin-top: 15vh;
 }
 
-.five_title {
+.sixth-title {
 	font-weight: bold;
 }
 
-.five_title::after {
+.sixth-title::after {
 	content: '';
 	width: 65px;
 	height: 2px;
@@ -390,7 +393,7 @@ a {
 	margin-bottom: 15px;
 }
 
-.five_text {
+.sixth-text {
 	font-weight: 600;
 	font-size: 2.5vh;
 }
