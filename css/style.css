@@ -344,7 +344,7 @@ a {
 	content: '';
 	width: 65px;
 	height: 2px;
-	background-color: black;
+	background-color: #fafafa;
 	display: block;
 	margin-top: 5px;
 	margin-bottom: 15px;

@@ -1,10 +1,10 @@
 @media (max-width: 1200px) { 
 
-	.five_title::after {
+	.fifth-title::after {
 		display: none;
 	}
 
-	.fth_title::after {
+	.sixth-title::after {
 		display: none;
 	}
 
@@ -16,7 +16,7 @@
 		margin-top: 10%;
 	}
 
-	.section_3 {
+	.section-3 {
 		height: 100%;
 	}
 
