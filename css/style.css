@@ -308,20 +308,21 @@ a {
 }
 
 .cont .cards .content h3 {
-	padding-top: 10%;
+	padding-top: 4%;
 	margin-bottom: 5px;
 	font-size: 24px;
 }
 
-.cont .cards .content h3::after {
+
+/* .cont .cards .content h3::after {
 	content: '';
 	width: 45px;
 	height: 2px;
 	background-color: black;
 	display: block;
 	margin-top: 10px;
-	margin-bottom: 20px;
-}
+	margin-bottom: 15px;
+} */
 
 /* Fifth Page */
 
