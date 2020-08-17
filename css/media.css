@@ -13,7 +13,7 @@
 	}
 
 	.main-info {
-		margin-top: 10%;
+		margin-top: 9%;
 	}
 
 	.section-3 {
@@ -84,6 +84,9 @@
 
 
 @media (max-width: 576px) { 
+	.main-logo {
+		height: 36px;
+	}
 
 	.main-title {
 		font-size: 5.6vh;

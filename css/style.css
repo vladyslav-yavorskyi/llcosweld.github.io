@@ -32,6 +32,10 @@ a {
 	background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.main-logo {
+	height: 50px;
+}
+
 .nav-title {
 	font-weight: bold;
 	color: #fafafa;
@@ -67,7 +71,7 @@ a {
 }
 
 .main-info {
-	margin-top: 10%;
+	margin-top: 9%;
 }
 
 .main-title {
