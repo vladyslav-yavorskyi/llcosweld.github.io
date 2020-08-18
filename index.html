@@ -66,7 +66,7 @@
 					<img src="img/logo8.jpg">
 					<img src="img/logo5.png">
 					<img src="img/logo1.png">
-					<img src="img/logo-3.jpg">
+					<img src="img/logo-3.png">
 					<img src="img/logo4.png">
 					<img src="img/logo6.png">
 					<img src="img/logo2.jpg">
@@ -198,7 +198,12 @@
  					</p>
 				</div>
 				<div class="col-xl-6 col-lg-12 ">
-					<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+					<form id="contact-form" name="contact-form" action="mail.php" method="POST">э
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="osweld-traning.com">
+						<input type="hidden" name="admin_email" value="vlad09vlad09@gmail.com">
+						<input type="hidden" name="form_subject" value="Form Subject">
+						<!-- END Hidden Required Fields -->
 						<div class="form-row pt-4">
 							<div class="col-xl-12 form-group">
 								<input class="form-control form-control-lg " type="text" id="name" name="name" placeholder="Ваше имя" required>
@@ -210,7 +215,7 @@
 								<input class="form-control form-control-lg" type="text" id="email" name="email" placeholder="Ваш E-mail" required>
 							</div>
 							<div class="col-xl-10 d-flex justify-content-center justify-content-xl-left ">
-								<button class="first__btn" onclick="mail()" name="submit" type="submit"> <i class='fab fa-telegram-plane'></i>  Відправити</button>
+								<button class="first__btn"      > <i class='fab fa-telegram-plane'></i>  Відправити</button>
 							</div>
 						</div>
 					</form>
@@ -234,9 +239,7 @@
 						<p class="sixth-text text-center text-xl-left">
 							Якщо Вам потрібна детальна інформація або персональна консультація, зв'яжіться з нами будь-яким зручним для себе способом.
 						</p>
-						<p class="sixth-text text-center text-xl-left">
-							Украина
-						</p>
+						
 						<p class="sixth-text text-center text-xl-left">
 							Адресса: м.Хмельницький вул.Ольги кобилянської 29/1
 						</p>
@@ -245,6 +248,12 @@
 						</p>
 						<p class="sixth-text text-center text-xl-left">
 							+380 97 23 00 800 Viber <i class="fab fa-viber"></i>
+						</p>
+						<p class="sixth-text text-center text-xl-left">
+							Instagram:
+						</p>
+						<p class="sixth-text text-center text-xl-left">
+							@os.weld <i class="fab fa-instagram"></i>
 						</p>
 				</div>
 			</div>
@@ -259,8 +268,7 @@
 		</div>
 	</footer>
 
-
-	
+ 
 
 
 
@@ -269,6 +277,7 @@
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="scripts/js.js"></script>
 	<script type="text/javascript" src="scripts/javascript.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
