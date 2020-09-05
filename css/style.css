@@ -403,7 +403,10 @@ a {
 	font-size: 2.5vh;
 }
 
-
+.iframe {
+    width: 54vh;
+    height: 47vh;
+}
 
 /* Footer */
 
